@@ -1,7 +1,7 @@
 #include "Zombie.hpp"
 
 Zombie::Zombie() {
-	std::cout << "New Zombie constructer called" << std::endl;
+	std::cout << "Random Zombie constructer called" << std::endl;
 }
 
 Zombie::~Zombie() {
