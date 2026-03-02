@@ -6,17 +6,17 @@
 #    By: ohaker <ohaker@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/27 00:30:33 by ohaker            #+#    #+#              #
-#    Updated: 2026/03/02 17:47:42 by ohaker           ###   ########.fr        #
+#    Updated: 2026/03/02 21:48:17 by ohaker           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ZombieHorde
+NAME = zombieHorde
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -rf
 SRC = main.cpp \
 	Zombie.cpp \
-	ZombieHorde.cpp
+	zombieHorde.cpp
 OBJS = $(SRC:.cpp=.o)
 
 # Color definitions for terminal output

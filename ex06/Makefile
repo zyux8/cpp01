@@ -6,11 +6,11 @@
 #    By: ohaker <ohaker@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/27 00:45:34 by ohaker            #+#    #+#              #
-#    Updated: 2026/03/02 20:36:44 by ohaker           ###   ########.fr        #
+#    Updated: 2026/03/02 21:31:40 by ohaker           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = HarlFilter
+NAME = harlFilter
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -rf
