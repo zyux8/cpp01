@@ -1,6 +1,9 @@
 *.o
 */*.o
-zombie
-zombieHorde
+Zombie
+ZombieHorde
 ThisIsBrian
 Violence
+sed
+Harl
+HarlFilter

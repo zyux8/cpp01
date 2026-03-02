@@ -6,18 +6,18 @@
 #    By: ohaker <ohaker@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/25 19:30:01 by ohaker            #+#    #+#              #
-#    Updated: 2026/02/25 19:32:51 by ohaker           ###   ########.fr        #
+#    Updated: 2026/03/02 20:34:34 by ohaker           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = zombie
+NAME = Zombie
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -rf
 SRC = main.cpp \
 	Zombie.cpp \
-	newZombie.cpp \
-	randomChump.cpp
+	NewZombie.cpp \
+	RandomChump.cpp
 OBJS = $(SRC:.cpp=.o)
 
 # Color definitions for terminal output
