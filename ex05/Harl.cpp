@@ -34,16 +34,16 @@ int GetLevel(std::string input) {
 void Harl::complain(std::string input) {
 	switch (GetLevel(input)) {
 		case DEBUG:
-			this->debug();
+			(this->*&Harl::debug)();
 			break;
 		case INFO:
-			this->info();
+			(this->*&Harl::info)();
 			break;
 		case WARNING:
-			this->warning();
+			(this->*&Harl::warning)();
 			break;
 		case ERROR:
-			this->error();
+			(this->*&Harl::error)();
 			break;
 		default:
 			std::cout << "Wrong input argument..." << std::endl;
